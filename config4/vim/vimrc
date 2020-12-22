@@ -39,3 +39,8 @@ set laststatus=2
 set nocp
 set nocompatible
 set backspace=2
+
+"Handling tab to 4 sapces
+set ts=4
+set expandtab
+set autoindent
