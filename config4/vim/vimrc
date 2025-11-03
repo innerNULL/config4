@@ -31,7 +31,8 @@ set undofile
 set history=1000
 
 "theme
-colorscheme darkblue
+set background=dark
+colorscheme torte
 
 "statusline
 set statusline=%F%m%r%h%w%=\ [ft=%Y]\ %{\"[fenc=\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\"+\":\"\").\"]\"}\ [ff=%{&ff}]\ [%p%%]\ [len=%L]
@@ -45,3 +46,6 @@ set backspace=2
 set ts=4
 set expandtab
 set autoindent
+
+"Vertical line
+set colorcolumn=100
